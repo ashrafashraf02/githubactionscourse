@@ -1,6 +1,6 @@
 {
     "name": "simple-node-app",
-    "version": "1.0.0",
+    "version": "",
     "description": "A simple Node.js app for Github Actions PR testing",
     "main": "src/app.js",
     "scripts": {
