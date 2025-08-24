@@ -1,6 +1,7 @@
 #!/bin/bash
 
 #src/test.sh
+set -e
 
 EXPECTED="Hello, Test"
 
