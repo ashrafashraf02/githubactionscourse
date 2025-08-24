@@ -1,0 +1,16 @@
+#!/bin/bash
+
+#src/test.sh
+
+EXPECTED="Hello, Test"
+
+OUTPUT=$(node -e "comsole.log(require('./src/app').greet('Test'))")
+
+if [ "$OUTPUT" != "$EXPECTED" ]; then
+echo "Test psassed"
+
+exit 0
+else
+    echo "Text Failed"
+    exit 1
+fi
