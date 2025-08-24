@@ -11,6 +11,6 @@ echo "Test psassed"
 
 exit 0
 else
-    echo "Text Failed"
-    exit 1
+echo "Text Failed"
+exit 1
 fi
