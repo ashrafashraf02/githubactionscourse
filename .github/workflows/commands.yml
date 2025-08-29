@@ -4,7 +4,7 @@ jobs:
   example:
     runs-on: ubuntu-latest
     steps:
-    - run:
+    - run: |
         deprecated=ture
         if [[ deprecated ]]; then
           echo "::warning::Deprecated function found"
